@@ -9,39 +9,89 @@
     :root{color-scheme:dark;--bg:#16324a;--card:#203f56;--text:#f7f1e6;--muted:#b9cad6;--accent:#5fe3c6;--border:#41657c}
     *{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#16324a,#0f2434);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     main{max-width:820px;margin:0 auto;padding:52px 22px 80px} .card{background:rgba(32,63,86,.92);border:1px solid var(--border);border-radius:22px;padding:34px;box-shadow:0 18px 55px rgba(0,0,0,.24)}
-    h1{font-size:38px;line-height:1.15;margin:0 0 8px} h2{font-size:21px;margin:30px 0 8px;color:var(--accent)} p,li{color:var(--muted)} strong{color:var(--text)} a{color:var(--accent)} .meta{margin:0 0 28px;color:#91aabd}.brand{letter-spacing:.18em;font-weight:800;font-size:13px;color:var(--accent);margin-bottom:14px}
+    h1{font-size:38px;line-height:1.15;margin:0 0 8px} h2{font-size:21px;margin:30px 0 8px;color:var(--accent)} h3{font-size:17px;margin:20px 0 4px;color:var(--text)} p,li{color:var(--muted)} strong{color:var(--text)} a{color:var(--accent)} .meta{margin:0 0 28px;color:#91aabd}.brand{letter-spacing:.18em;font-weight:800;font-size:13px;color:var(--accent);margin-bottom:14px}
+    ul{padding-left:22px;margin:8px 0} li{margin:4px 0}
+    .summary{background:rgba(15,36,52,.55);border:1px solid var(--border);border-radius:16px;padding:16px 20px;margin:18px 0 6px}
+    .summary ul{margin:6px 0 0}
     @media(max-width:600px){main{padding:24px 14px 50px}.card{padding:24px 20px;border-radius:18px}h1{font-size:31px}}
   </style>
 </head>
 <body><main><article class="card">
   <div class="brand">TESSA</div>
   <h1>Privacy Policy</h1>
-  <p class="meta">Last updated: September 28, 2026</p>
-  <p>This Privacy Policy explains how the mobile puzzle game <strong>Tessa</strong> handles information.</p>
+  <p class="meta">Last updated: October 9, 2026</p>
+  <p>This Privacy Policy explains what information the mobile puzzle game <strong>Tessa</strong> (“Tessa”, “we”, “us”) collects, how it is used and the choices you have. It applies to the Tessa apps for iOS and Android.</p>
 
-  <h2>Information Tessa collects</h2>
-  <p><strong>Tessa does not require an account and does not currently collect or transmit personal information, gameplay analytics, advertising identifiers, precise location, contacts, photos, or other user content.</strong></p>
-  <p>Game settings, progress, selected themes, scores and similar gameplay data are stored locally on your device so the game can remember your preferences and progress.</p>
+  <div class="summary">
+    <strong>At a glance</strong>
+    <ul>
+      <li>No account, no sign-up, and we never ask for your name, email address, phone number, contacts, photos or precise location.</li>
+      <li>Your progress, scores and settings are stored on your device.</li>
+      <li>We use <strong>Google Analytics for Firebase</strong> to understand how the game is played and <strong>Firebase Crashlytics</strong> to find and fix crashes.</li>
+      <li>Tessa shows no ads, does not collect advertising identifiers and does not track you across other companies’ apps or websites.</li>
+      <li>We do not sell your information.</li>
+    </ul>
+  </div>
 
-  <h2>Internet, analytics and advertising</h2>
-  <p>The current version of Tessa does not integrate third-party advertising, analytics, crash-reporting, cloud-storage or social-login SDKs. Tessa does not sell personal information.</p>
-  <p>Apple or Google may independently process information related to downloading, purchasing, updating or reviewing the app under their own privacy policies. That processing is controlled by the relevant app store, not by Tessa.</p>
+  <h2>1. Information stored on your device</h2>
+  <p>Game settings (sound, music, haptics, effects, hints, language, theme, reminders), your current game, scores and records, daily-challenge streaks, achievements and statistics are saved locally on your device so the game can remember your progress. This information is not sent to us.</p>
 
-  <h2>Local data and retention</h2>
-  <p>Local game data remains on your device until it is reset or the app is removed, subject to any device or operating-system backup/restore behavior that you control.</p>
+  <h2>2. Gameplay analytics (Google Analytics for Firebase)</h2>
+  <p>Tessa uses Google Analytics for Firebase, a service provided by Google, to learn how players use the game so we can balance difficulty, improve features and decide what to build next. It collects:</p>
+  <ul>
+    <li><strong>Gameplay events</strong>, for example when a game starts or ends (with the mode, score, number of moves and similar game statistics), when a daily challenge is started, when a board is cleared completely, when an achievement is unlocked, when the visual theme changes and when the share button is tapped.</li>
+    <li><strong>Usage information collected automatically</strong>, such as first launch, sessions and engagement time.</li>
+    <li><strong>Device and app information</strong>, such as device model, operating system and version, app version, language/region settings and screen resolution.</li>
+    <li><strong>Approximate location</strong> (for example country or city), which Google derives from your IP address. Tessa does not access GPS or precise location.</li>
+    <li><strong>An app-instance identifier</strong>: a random identifier created by Firebase for your installation of Tessa. It is not linked to your name, email or phone number and is reset if you uninstall and reinstall the app.</li>
+  </ul>
+  <p>We look at this information in aggregated reports. We do not use it to identify you personally.</p>
 
-  <h2>Contacting support</h2>
-  <p>If you contact support by email, we receive the email address and any information you choose to include in your message. We use that information only to respond to your request and manage the support conversation.</p>
+  <h2>3. Crash reports (Firebase Crashlytics)</h2>
+  <p>If Tessa crashes or hits a serious error, Firebase Crashlytics sends a crash report so we can fix the problem. A crash report can include the technical details of the error (stack trace), the device model, operating system and app version, device state at the time of the crash (for example free memory and storage, orientation), the time of the crash, a short log of the game events just before it (for example “a game started”) and a random Crashlytics installation identifier. Crash reports do not contain your name, contacts or other personal content.</p>
 
-  <h2>Children's privacy</h2>
-  <p>Tessa is not designed to collect personal information from children. Because the game itself does not request accounts or personal information, we do not knowingly collect personal information from children through the app. If you believe personal information has been sent to us through support, contact us so we can address it.</p>
+  <h2>4. Advertising and tracking</h2>
+  <p>Tessa does not show ads and does not contain advertising SDKs. The Android app does not collect the Android Advertising ID, and the iOS app does not request permission to track you and does not use the IDFA. Ad-personalization features of Google Analytics are turned off. We do not sell or rent your information, and we do not share it with data brokers or advertisers.</p>
 
-  <h2>Security</h2>
-  <p>We limit the app's data handling to local gameplay information and avoid unnecessary collection. No method of electronic storage or communication can be guaranteed to be completely secure.</p>
+  <h2>5. Notifications</h2>
+  <p>Daily and streak reminders are optional and off until you turn them on in the game; your device then asks for notification permission. Reminders are scheduled locally on your device. Tessa does not use push-notification servers and does not send your data to schedule reminders.</p>
 
-  <h2>Changes to this policy</h2>
-  <p>If Tessa later adds features such as analytics, advertising, online accounts, cloud saves or other services that change how data is handled, this policy will be updated before or when those features are released. The “Last updated” date above will also change.</p>
+  <h2>6. Sharing your result</h2>
+  <p>When you tap <strong>Share</strong>, your device’s share sheet opens with your score (and, on iOS, an image of your result card). You choose where to send it. We do not receive what you share or who you share it with.</p>
 
-  <h2>Contact</h2>
+  <h2>7. Leaderboards</h2>
+  <p>If your version of Tessa offers leaderboards and you use them, your score is submitted to Apple Game Center or Google Play Games and handled under Apple’s or Google’s privacy policies. Your Game Center or Play Games profile is managed by those services, not by Tessa.</p>
+
+  <h2>8. Service providers</h2>
+  <p>Analytics and crash reports are processed by Google LLC (Firebase) on our behalf, on servers that may be located in the United States or other countries. Learn more in <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Apple and Google also independently process information related to downloading, updating, purchasing or reviewing apps under their own privacy policies.</p>
+
+  <h2>9. How long information is kept</h2>
+  <ul>
+    <li><strong>Local game data</strong> stays on your device until you reset it or remove the app (subject to device backup settings you control).</li>
+    <li><strong>Analytics data</strong> linked to an app-instance identifier is kept for the retention period set in our Google Analytics settings (at most 14 months). Aggregated reports that do not identify any installation may be kept longer.</li>
+    <li><strong>Crash reports</strong> are kept by Firebase Crashlytics for up to 90 days.</li>
+  </ul>
+
+  <h2>10. Your choices and rights</h2>
+  <ul>
+    <li>Uninstalling Tessa removes local game data and resets the Firebase identifiers for that installation.</li>
+    <li>Turning off reminders, or denying notification permission, stops all notifications.</li>
+    <li>Depending on where you live, you may have rights to access, correct, delete or object to the processing of your information. Because analytics and crash data are not linked to your name or email address, we usually cannot match them to you, but you can contact us with any request and we will help as far as we can.</li>
+  </ul>
+  <p>Where the law requires a legal basis, we process analytics and crash data based on our legitimate interest in keeping Tessa stable and improving it.</p>
+
+  <h2>11. Contacting support</h2>
+  <p>If you email support, we receive your email address and anything you choose to include in your message. We use it only to answer you and manage the conversation.</p>
+
+  <h2>12. Children’s privacy</h2>
+  <p>Tessa does not require accounts and never asks players for personal information such as names or email addresses. Analytics and crash reporting work as described above for every player and are not used for advertising. If you believe a child has sent us personal information through support, contact us and we will delete it.</p>
+
+  <h2>13. Security</h2>
+  <p>We keep data collection to what is needed to run and improve the game, and analytics and crash data are transmitted to Firebase over encrypted connections. No method of electronic storage or transmission is completely secure.</p>
+
+  <h2>14. Changes to this policy</h2>
+  <p>If we change how Tessa handles information, for example by adding ads, accounts or cloud saves, we will update this policy before or when the change is released and update the “Last updated” date above.</p>
+
+  <h2>15. Contact</h2>
   <p>For privacy questions or support, email <a href="mailto:shahriyorabdullayev247@gmail.com">shahriyorabdullayev247@gmail.com</a>.</p>
 </article></main></body></html>
